@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/*START HEADER*/
+#header{
+    display: flex;
+    background-image: linear-gradient(#08456B,#4DCDE0);
+    width: 100vw;
+    margin: 0 auto;
+}
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 30px auto;
+   
+}
+#header .container .logo{
+    color:#fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+#header .container .search{
+    display: flex;
+}
+#header .container .search input{
+    width: 300px;
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+    color: rgb(205, 205, 205);
+    text-transform: none;
+}
+#header .container .search .icon{
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header .container .search .icon i:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    color:#08456B
+}
+#header .container .phone,#header .container .login,#header .container .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background-color: #eee;
+    border-radius: 6px;
+    color: #08456B;
+}
+#header .container .phone i:hover,#header .container .login i:hover,#header .container .cart i:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    color:#08456B
+}
+/*END HEADER*/
+
+
+/*START NAVIGATION*/
+#nav {
+    width: 100vw;
+    background-color: #eee;
+}
+#nav .container{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+}
+#nav .container .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #ffc400;
+    padding: 0 20px;
+}
+#nav .container .menu i{
+    padding-right: 10px;
+}
+#nav .container .list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    height: 100%;
+}
+#nav .container .list-item div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+#nav .container .list-item div:hover{
+    color:rgb(209, 58, 58);
+    background-color: #fff;
+}
+#nav .container .list-item div i{
+    padding-right: 5px;
+}
+/*END NAVIGATION*/
