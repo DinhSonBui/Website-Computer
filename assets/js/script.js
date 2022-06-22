@@ -8,7 +8,7 @@ document.querySelector('#cart-btn').onclick = () =>{
 var index=1;
 changeimage = function()
 {
-    var imgs=["/assets/img/banner1.jpg","/assets/img/banner2.jpg","/assets/img/banner3.jpg","/assets/img/banner4.jpg","/assets/img/banner5.jpg","/assets/img/banner6.jpg"];
+    var imgs=["./assets/img/banner1.jpg","./assets/img/banner2.jpg","./assets/img/banner3.jpg","./assets/img/banner4.jpg","./assets/img/banner5.jpg","./assets/img/banner6.jpg"];
     document.getElementById('img').src = imgs[index];
     index++;
     if(index == 6)

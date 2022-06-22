@@ -23,6 +23,7 @@ section .product-layout {
 .product .img-container {
   position: relative;
   cursor: pointer;
+  
 }
 
 .product .img-container img {

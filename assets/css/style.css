@@ -75,7 +75,7 @@ color: #08456B;
 #header .container .phone i:hover,#header .container .login i:hover,#header .container .cart i:hover{
     transform: scale(1.5);
     transition: 0.3s;
-    color:#08456B
+    color:#08456B;
 }
 
 .header .shopping-cart{
@@ -89,6 +89,7 @@ color: #08456B;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index:100;
 }
 
 .header .shopping-cart.active{

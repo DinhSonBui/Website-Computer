@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #000;
+  }
+  
+  th {
+    text-align: left;
+    border: 1px solid #000;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  td {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+    padding-left: 30px;
+    overflow: hidden;
+    width: 20%;
+  }
+  
+  td a {
+    color: #000;
+    text-decoration: none;
+  }
+  td a:hover {
+    color: red;
+  }
+  
+  th:hover {
+    background: #08456B;
+    color: #fff;
+  }
